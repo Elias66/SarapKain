@@ -1,0 +1,158 @@
+<html lang="en">
+<head>
+    <script src="https://kit.fontawesome.com/9db17d564b.js" crossorigin="anonymous"></script>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:wght@500&display=swap" rel="stylesheet"> 
+    <title>Document</title>
+</head>
+<body>
+<!--HEAD-->
+<input type="checkbox" id="cart">
+<label for="cart" class="label-cart"><span class="fas fa-shopping-cart"></span></label>
+
+<h3 class="logo">SarapKain Fernandez</h3>
+
+<!--sidebar-->
+<div class="sidebar">
+    <div class="sidebar-menu">
+        <span class="fas fa-search"></span>
+        <a href="#">Search</a>
+    </div>
+    <div class="sidebar-menu">
+        <span class="fas fa-home"></span>
+        <a href="#">Home</a>
+    </div>
+    <div class="sidebar-menu">
+        <span class="fas fa-heart"></span>
+        <a href="#">Likes</a>
+    </div>
+    <div class="sidebar-menu">
+        <span class="fas fa-user"></span>
+        <a href="#">Profile</a>
+    </div>
+    <div class="sidebar-menu">
+        <span class="fas fa-sliders-h"></span>
+        <a href="#">Setting</a>
+    </div>
+</div>
+<!--main Dashboard-->
+<div class="dashboard">
+    <div class="dashboard-banner">
+        <img src="imgs/banner.png">
+        <div class="banner-promo">
+            <h1><span>10% OFF</span>
+            <br>Enjoy Our Food <br> With Discounts! </h1>
+        </div>
+    </div>
+    <h3 class="dashboard-title">Suggested picks!</h3>
+    <div class="dashboard-menu">
+        <a href="#">Favorites</a>
+        <a href="#">Popular Orders</a>
+        <a href="#">Near Me</a>
+        <a href="#">Promotion</a>
+        <a href="#">ALL</a>
+    </div>
+    <div class="dashboard-content">
+        <div class="dashboard-card">
+            <img class="card-img" src="imgs/lasag.png">
+            <div class="card-detail">
+                <h4>Loaded Lasagna<span><br>₱110</span></h4>
+                <p>Each bite is full of explosive flavorful goodness.Each layer covered well with meat, sauce, and cheese.</p>
+                <p class="card-time"><span class="fas fa-clock"></span>30 mins.</p>
+            </div>
+        </div>
+        <div class="dashboard-card">
+            <img class="card-img" src="imgs/bleu.png">
+            <div class="card-detail">
+                <h4>Cordon Bleu<span><br>₱250</span></h4>
+                <p>Crispy Rolled Chicken filled with ham and cheese, covered in creamy and garlicky white sauce. </p>
+                <p class="card-time"><span class="fas fa-clock"></span>30 mins.</p>
+            </div>
+        </div>
+        <div class="dashboard-card">
+            <img class="card-img" src="imgs/carbo.png">
+            <div class="card-detail">
+                <h4>Carbonara<span><br>₱95</span></h4>
+                <p>An old white sauce pasta classic.</p>
+                <p class="card-time"><br><br><span class="fas fa-clock"></span>20 mins.</p>
+            </div>
+        </div>
+        <div class="dashboard-card">
+            <img class="card-img" src="imgs/DBCB.png">
+            <div class="card-detail">
+                <h4>Double Patty Bacon Cheeseburger<span> ₱150</span></h4>
+                <p>A heavy burger with crispy bacon, two juicy and thick patties, vegetable, and cheese.</p>
+                <p class="card-time"><span class="fas fa-clock"></span>25 mins.</p>
+            </div>
+        </div>
+        <div class="dashboard-card">
+            <img class="card-img" src="imgs/egg.png">
+            <div class="card-detail">
+                <h4>Egg Pie<span><br>₱200</span></h4>
+                <p>A delectable dessert loved by many who orders from us. Perfect food to enjoy alone, or with friends.</p>
+                <p class="card-time"><span class="fas fa-clock"></span>45 mins.</p>
+            </div>
+        </div>
+<!--side Dashboard-->
+        <div class="dashboard-order">
+            <h3>Menu</h3>
+                <div class="order-add">
+                    <p>Address Delivery</p>
+                    <h4>#194 Gueguesangen, Mangaldan, Pangasinan</h4>
+                </div>
+                <div class="order-time">
+                    <span class="fas fa-clock"></span> 90 mins <span class="fas fa-map-marker-alt"> 2.5 km </span>
+                </div>
+
+                <div class="order-wrap">
+                    <div class="order-card">
+                        <img class="ord-img" src="imgs/carbo.png">
+                        <div class="ord-det">
+                            <p>Carbonara</p>
+                            <i class="fas fa-times"></i><input type="text" value="3">
+                        </div>
+                        <h4 class="ord-prc">₱95</h4>
+                    </div>
+                    <div class="order-card">
+                        <img class="ord-img" src="imgs/DBCB.png">
+                        <div class="ord-det">
+                            <p>D.P.B. Cheeseburger</p>
+                            <i class="fas fa-times"></i><input type="text" value="1">
+                        </div>
+                        <h4 class="ord-prc">₱150</h4>
+                    </div>
+                    <div class="order-card">
+                        <img class="ord-img" src="imgs/egg.png">
+                        <div class="ord-det">
+                            <p>Egg Pie</p>
+                            <i class="fas fa-times"></i><input type="text" value="1">
+                        </div>
+                        <h4 class="ord-prc">₱200</h4>
+                    </div>
+                </div>
+                <hr class="divide">
+                <div class="ord-tot">
+                    <p>Subtotal <span>₱445</span>
+                    <p>Tax (%10) <span>₱44.5</span></p>    
+                    <p>Delivery Fee <span>₱50</span></p>
+
+                    <div class="ord-pro">
+                        <input class="input-pro" type="text" placeholder="Apply Voucher">
+                        <button class="but-pro">Available Promos</button>
+                    </div>
+                    <hr class="divide">
+                    <p>Total <span>₱539.5</span></p>
+                </div>
+                <button class="out">
+                    Done
+                </button>
+        </div>
+    </div>
+</div>
+</body>
+</html>
